@@ -8,7 +8,7 @@ export const StyleCon = styled.div`
   background-repeat: no-repeat;
   background-size: 1440px auto;
   background-position: top left;
-  @media (max-width: 548px){
+  @media (max-width: 548px) {
     background-image: url("/images/bg-header-mobile.png");
   }
   header {
@@ -86,6 +86,9 @@ export const StyleCon = styled.div`
         @media (max-width: 548px) {
           width: 100%;
           text-align: center;
+        }
+        &:hover {
+          opacity: 0.7;
         }
         &:nth-child(1) {
           box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
@@ -286,6 +289,9 @@ export const StyleCon = styled.div`
           width: 129px;
           letter-spacing: 0.03em;
           color: #515254;
+          &:hover {
+            color: #74d2c6;
+          }
           @media (max-width: 548px) {
             width: 100%;
             text-align: center;
@@ -296,6 +302,12 @@ export const StyleCon = styled.div`
           gap: 24px;
           align-items: center;
           justify-content: flex-end;
+          svg {
+            fill: #4c545c;
+            &:hover {
+              fill: #74d2c6;
+            }
+          }
         }
         @media (max-width: 768px) {
           margin: auto;
