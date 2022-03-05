@@ -8,6 +8,9 @@ export const StyleCon = styled.div`
   background-repeat: no-repeat;
   background-size: 1440px auto;
   background-position: top left;
+  @media (max-width: 548px){
+    background-image: url("/images/bg-header-mobile.png");
+  }
   header {
     display: flex;
     justify-content: center;
