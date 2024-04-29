@@ -132,8 +132,8 @@ export const StyleCon = styled.div`
             }
             img {
               margin-left: -32px;
-              @media (max-width: 768px) {
                 width: 100%;
+              @media (max-width: 768px) {
                 margin: auto;
                 margin-left: -32px;
               }
